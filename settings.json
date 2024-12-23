@@ -1,0 +1,30 @@
+{
+    "game_structure": {
+        "num_cases": 26,
+        "min_prize": 1,
+        "max_prize": 1000000,
+        "prize_distribution": "random",
+        "num_rounds": 10
+    },
+    "banker_settings": {
+        "banker_behavior": "moderate",
+        "offer_percentage": 75,
+        "round_offer_variance": 10,
+        "offer_increment_strategy": "linear"
+    },
+    "player_settings": {
+        "starting_bonus": 5000,
+        "risk_multiplier": 1.5,
+        "player_name": "default"
+    },
+    "visual_settings": {
+        "case_reveal_speed": "medium",
+        "sound_effects": true,
+        "theme": "classic"
+    },
+    "debug": {
+        "debug_mode": false,
+        "force_case": null,
+        "auto_win": false
+    }
+}
